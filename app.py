@@ -5,7 +5,7 @@ st.title('Historico de cotação')
 
 st.write('Veja o historico das transações')
 
-ticker = st.sidbar.text_input('Escolha o ticker:',  value = 'AAPL'
+ticker = st.sidebar.text_input('Escolha o ticker:',  value = 'AAPL'
 
 )
 fig = plot(ticker)
